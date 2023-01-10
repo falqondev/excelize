@@ -290,7 +290,7 @@ func checkSheet(ws *xlsxWorksheet) {
 			row = r.R
 			continue
 		}
-		if r.R != row {
+		if r.R != row || r.R == 0 {
 			row++
 		}
 	}
