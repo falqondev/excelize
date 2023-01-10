@@ -678,7 +678,7 @@ type FormulaOpts struct {
 //	import (
 //	    "fmt"
 //
-//	    "github.com/xuri/excelize/v2"
+//	    "github.com/falqondev/excelize/v2"
 //	)
 //
 //	func main() {
@@ -1048,7 +1048,7 @@ func setRichText(runs []RichTextRun) ([]xlsxR, error) {
 //	import (
 //	    "fmt"
 //
-//	    "github.com/xuri/excelize/v2"
+//	    "github.com/falqondev/excelize/v2"
 //	)
 //
 //	func main() {
